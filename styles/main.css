@@ -1,1 +1,151 @@
-<!-- In this file you are going to write the CSS code -->
+*{
+	font-family: helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	
+ }
+ .transparent_nav {
+	background-color:gray;
+	background-color: alpha value=0.7;
+	background-size: cover;
+	height: 100px;
+	background-position: center;
+	background-size:cover;
+
+	
+	margin:auto;
+}
+.main img
+
+{
+
+	height: 500px;
+	width: 100%;
+}
+header ul li{
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+}
+ul li a{
+		text-decoration:none;
+		color:#fff;
+		padding:5px 20px;
+		border:1px solid transparent;;
+		display:inline-block;
+		transition:0.6s ease;
+}
+ul li a:hover{
+		background-color:#fff;
+		color:black;
+}
+
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+.button{
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border:1px solid #fff;
+	padding:10px,30px;
+	color:white;
+	text-decoration:none;
+	transition:0.6s ease;
+}
+.btn:hover{
+	background-color:#fff;
+		color:black;
+}
+
+.recent_work{
+	padding-top:35px;
+	clear:left;
+	background-color:white;
+}
+
+.testimonials_wrapper tm{
+	display:inline-block;
+	width:100px;
+	float:left;
+	padding-top:25px;
+	background-color:white;
+	padding:25px 25px 0;
+}
+.employer{
+	padding:0 35px;
+}
+.employer-image{
+	width:25%;
+	float:left;
+}
+.employer-image img{
+	width:60%;
+}
+.employer-detail{
+	width:70%;
+	float:left;
+	padding-left:30px;
+}
+footer {
+		background-color:black;
+		width: 100%;
+		height: 300px;
+		display:inline-block;
+		padding-right:15%;
+}
+
+.nav_bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.location {
+	float:left;
+	background-color: black;
+	color:white;
+}
+h1,p,ul{
+	color:white;
+}
+.support{
+	float:left;
+	background-color: black;
+	color:white;
+}
+.vision{
+	float:left;
+	background-color: black;
+	color:white;
+}
+.about{
+	float:left;
+	background-color: black;
+	color:white;
+}
+.cta{
+	background-color:gray;
+	height: 70px;
+}
+.services wrapper{
+	color:pink;
+}
+ .testimonials_wrapper{
+	background-image:url("testonomial.jpg");
+ background-color: alpha value=0.7;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
