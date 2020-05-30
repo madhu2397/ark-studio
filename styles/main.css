@@ -1,151 +1,303 @@
-*{
-	font-family: helvetica, Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	
- }
- .transparent_nav {
-	background-color:gray;
-	background-color: alpha value=0.7;
-	background-size: cover;
-	height: 100px;
-	background-position: center;
-	background-size:cover;
-
-	
-	margin:auto;
-}
-.main img
-
-{
-
-	height: 500px;
-	width: 100%;
-}
-header ul li{
-	float:right;
-	list-style-type:none;
-	margin-top:25px;
-}
-ul li a{
-		text-decoration:none;
-		color:#fff;
-		padding:5px 20px;
-		border:1px solid transparent;;
-		display:inline-block;
-		transition:0.6s ease;
-}
-ul li a:hover{
-		background-color:#fff;
-		color:black;
-}
-
-.logo img{
-	float:left;
-	width:150px;
-	height:auto;
-	margin-left: 200px;
-	margin-top: 20px;
-}
-
-.button{
-	position:absolute;
-	top:60%;
-	left:50%;
-	transform: translate(-50%,-50%);
-}
-.btn{
-	border:1px solid #fff;
-	padding:10px,30px;
-	color:white;
-	text-decoration:none;
-	transition:0.6s ease;
-}
-.btn:hover{
-	background-color:#fff;
-		color:black;
-}
-
-.recent_work{
-	padding-top:35px;
-	clear:left;
-	background-color:white;
-}
-
-.testimonials_wrapper tm{
-	display:inline-block;
-	width:100px;
-	float:left;
-	padding-top:25px;
-	background-color:white;
-	padding:25px 25px 0;
-}
-.employer{
-	padding:0 35px;
-}
-.employer-image{
-	width:25%;
-	float:left;
-}
-.employer-image img{
-	width:60%;
-}
-.employer-detail{
-	width:70%;
-	float:left;
-	padding-left:30px;
-}
-footer {
-		background-color:black;
-		width: 100%;
-		height: 300px;
-		display:inline-block;
-		padding-right:15%;
-}
-
-.nav_bar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.location {
-	float:left;
-	background-color: black;
-	color:white;
-}
-h1,p,ul{
-	color:white;
-}
-.support{
-	float:left;
-	background-color: black;
-	color:white;
-}
-.vision{
-	float:left;
-	background-color: black;
-	color:white;
-}
-.about{
-	float:left;
-	background-color: black;
-	color:white;
-}
-.cta{
-	background-color:gray;
-	height: 70px;
-}
-.services wrapper{
-	color:pink;
-}
- .testimonials_wrapper{
-	background-image:url("testonomial.jpg");
- background-color: alpha value=0.7;
-}
+header {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    /* background: #fbfbfb; */
+    background-color: rgba(248, 244, 244, 0.7);
+    position: fixed;
+    width: 100%;  
+    height: 12%;
+    
+  }
+  
+  .logo {
+    float: left;
+    margin: 0 0 0 18rem;
+    color: white;
+    height: 3.5rem;
+  }
+  
+  
+  li,
+  a,
+  button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  #nav_list,
+  li {
+    list-style: none;
+  }
+  
+  .nav_bar {
+    float: right;
+    margin-right: 19rem;
+  }
+  
+  .nav_bar li {
+    display: inline-block;
+    padding: 0 0.5rem;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  .cta {
+    /* background-image: url("E:\greyatom\New folder\img\billiboard.jpg"); */
+    position: relative;
+    /* float: left; */
+    margin-top: -400;
+    width: 100%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index: -10; */
+    display: block;
+  }
+  
  
- 
- 
- 
- 
- 
- 
+  
+  #cta_text {
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: lighter;
+    padding-top: 0.5%;
+    letter-spacing: 0.1rem;
+    display: block;
+  }
+  
+  #cta_link {
+    float: right;
+    margin-top: 1%;
+    color: white;
+    margin-right: 1.5%;
+    padding: 0.5% 2.2%;
+    background-color: #50ccff;
+    font-weight: 500;
+  }
+  
+  .section_div {
+   
+    position: absolute;
+    top: 92%;
+    width: 100%;
+    height: 10%;
+    display: block;
+    background: #fbfbfb;
+  }
+  
+  .services {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: #fbfbfb;
+    position: relative;
+    width: 76%;  
+    height: 78%;
+  }
+  
+  .services h1 {
+      margin-top: 0px;margin-bottom: 5px; padding-top: 60px; color: #616264; font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .services li {
+  position: relative;display: inline-block;
+  }
+
+  .services p {
+    width: 250px; margin-top: 0px;
+  }
+
+  .services h2 {
+    width: 250px; text-align: center; word-wrap: normal; font-size: medium; color: #616264; font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .recent_work {
+    width: 100%;
+  }
+  
+  .recent_work img {
+    width: 20.05%;
+    padding: 0;
+    margin: 0;
+    margin-left: -4px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .recent_work img:hover {
+    width: 19%;
+  }
+  
+  .testimonials {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: #fbfbfb;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    margin-top: 0px;margin-bottom: 50px; padding-top: 60px; color: #616264; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .client_brand {
+      padding-top: 30px;
+      padding-bottom: 15px;
+      background-color: #f3f3f3;
+      text-align: center; width: 100%;
+      height: 20%;
+    }
+    
+    .client_brand img {
+      padding-left: 2.9%;
+      padding-right: 2.9%;
+    }
+  
+  footer {
+    width: 100%;
+    height:80%;
+    background: #353535;
+    margin: 0 auto;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 5%;
+    margin-top:-92.5px;
+  }
+  
+  .footer_widget li {
+    font-size: 14px;
+  }
+  
+  .footer_widget {
+      height: 100%; width: 80%; margin: 0 auto;
+  
+  }
+  
+  address {
+    line-height: 1.5em;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .footer_about p {
+    line-height: 1rem;
+    margin: 0;
+   
+  }
+  
+  h3 {
+    margin-bottom: 30px;
+  }
+
+  
+  
+  .footer_company a, .footer_support a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  
+  
+  .footer_location,
+  .footer_company {
+    display: inline-block;
+    padding: 8%;
+    float: left;
+    padding-left: 0px;
+  }
+  
+
+  
+  .footer_support {
+    display: inline-block;
+    float: left;
+    padding: 8%;
+    padding-left: 4%;
+  }
+  
+  .rights {
+    position: absolute;
+    margin-top: -5%;
+    left: 40%;
+  }
+  
+  .footer_about {
+    display: inline-block;
+    float: left;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 2%;
+    
+  }
+  
+  .social_icons {
+    margin-top: 10px;
+    background-image: url("img\social.png");
+    background-repeat: no-repeat;
+    height: 25px;
+  }
+  
+  
+#cta_1 {
+    margin-top: 0; margin-bottom: 0; width: 60%; padding: 3%;  display: inline-block; letter-spacing: 0.12rem;
+}
+
+#comp_list {
+    padding: 0; margin: 0; font-size: 14px;
+}
+
+#cta_2 {
+  color: white; text-decoration: none; margin-left: 5%; padding: 1% 5%;  background-color: #50ccff;
+}
+
+#sup_item_1,#sup_item_2,#sup_item_3,#comp_item_1,#comp_item_2,#comp_item_3 {
+  padding-bottom: 8px;
+padding-bottom: 8px;
+padding-bottom: 8px;
+}
+
+.testimonials p{
+  width: 250px; margin-top: 10px; color: #aaabb6; font-size:small;
+
+}
+
+.testimonials img {
+  border-radius: 50%;
+}
+
+.testimonials span{
+  color:#aaabb6; font-size: small;
+}
+
+#nav_client1 {
+  position: relative;display: inline-block;left: -140px;   
+}
+
+#nav_client2 {
+  display: inline-block;position: relative;left: -20px;
+}
+
+#nav_client3{
+  position: relative;display: inline-block;left: 90px;
+}
+
+.cta_div{
+  width: 100%;margin: 0 auto;background-color: #434343;position: relative;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  width: 66%;
+}
